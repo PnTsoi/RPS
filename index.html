@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <section id="maintitle">
+        <div class="container-lg">
+            <div class="justify-content-center text-center">
+                <div class="display-2">
+                    Rock, Paper, Scissors!
+                </div>
+                <p class="lead text-muted">
+                    Try out this small demo of Rock, Paper, Scissors for 5 rounds, best of 5!
+                </p>
+            </div>
+        </div>
+    </section> 
+    <section id="play">
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">The Rock</h5>
+                            <p class="card-text">Choose the Rock</p>
+                            <button type="button" class="btn btn-primary">Choose Rock!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">The Paper</h5>
+                            <p class="card-text">Literally just a paper.</p>
+                            <button type="button" class="btn btn-primary">Choose Paper!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">The Scissors</h5>
+                            <p class="card-text">And the scissors... </p>
+                            <button type="button" class="btn btn-primary">Choose Scissors!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="result">
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center text-center">
+                <div class="display-3" id="round">
+                    Round 1
+                </div>
+                <p class="lead text-muted mt-3" id="computer-choice">
+                    The computer played:
+                </p>
+                <p class="lead text-muted" id="player-choice">
+                    You played:
+                </p>
+                <p class="lead text-muted" id="player-score">
+                    Your Score: 0
+                </p>
+                <p class="lead text-muted" id="computer-score">
+                    The Computer's Score: 0
+                </p>
+
+            </div>
+        </div>
+    </section> 
+    <script src="sandbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
